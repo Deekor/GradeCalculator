@@ -20,7 +20,7 @@ namespace GradeCalculator
                 string[] names = new string[sections];
                 for (int i = 0; i < sections; i++)
                 {
-                    Console.Write("Section " + i + " name: ");
+                    Console.Write("Section " + (i+1) + " name: ");
                     names[i] = Console.ReadLine();
                 }
 
@@ -54,7 +54,7 @@ namespace GradeCalculator
                 {
                     for (int j = 0; j < grades[i].Count(); j++)
                     {
-                        Console.Write(names[i] + " " + j + " grade: ");
+                        Console.Write(names[i] + " " + (j +1) + " grade: ");
                         grades[i][j] = double.Parse(Console.ReadLine());
                     }
                     Console.WriteLine();
