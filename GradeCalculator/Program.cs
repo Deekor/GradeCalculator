@@ -87,7 +87,8 @@ namespace GradeCalculator
 
 
 
-
+            Console.WriteLine();
+            Console.WriteLine("Press <ENTER> to exit");
             Console.ReadLine();
         }
     }
